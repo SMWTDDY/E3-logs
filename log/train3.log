@@ -1,0 +1,43 @@
+nohup: 忽略输入
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+cuda
+Epoch   1 | Loss: 525.763718
+Epoch   2 | Loss: 518.311264
+Epoch   3 | Loss: 514.375633
+Epoch   4 | Loss: 512.032623
+Epoch   5 | Loss: 513.899666
+Epoch   6 | Loss: 514.526489
+Epoch   7 | Loss: 513.219818
+Epoch   8 | Loss: 512.646698
+Epoch   9 | Loss: 512.511971
+Epoch  10 | Loss: 512.965088
+Epoch  11 | Loss: 514.330513
+Epoch  12 | Loss: 512.806526
+Epoch  13 | Loss: 512.129898
+Epoch  14 | Loss: 511.962082
+Epoch  15 | Loss: 513.140572
+Epoch  16 | Loss: 512.176140
+Epoch  17 | Loss: 512.602478
+Epoch  18 | Loss: 511.279190
+Epoch  19 | Loss: 512.707779
+Epoch  20 | Loss: 510.809723
+Epoch  21 | Loss: 511.800743
+Epoch  22 | Loss: 512.107246
+Epoch  23 | Loss: 511.394012
+Epoch  24 | Loss: 510.177185
+Epoch  25 | Loss: 509.399956
+Epoch  26 | Loss: 506.044090
+Epoch  27 | Loss: 501.518097
+Epoch  28 | Loss: 488.311050
+Epoch  29 | Loss: 473.214058
+Epoch  30 | Loss: 461.839218
+Epoch  31 | Loss: 451.389938
+Epoch  32 | Loss: 440.697365
+Epoch  33 | Loss: 431.783920
+Epoch  34 | Loss: 421.770073
+Epoch  35 | Loss: 414.413712
+Epoch  36 | Loss: 408.603210
+Epoch  37 | Loss: 404.746201
+Epoch  38 | Loss: 401.455566
+Epoch  39 | Loss: 398.393593
