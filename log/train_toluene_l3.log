@@ -593,3 +593,18 @@ Epoch 588 | Loss: 99.950242
 Epoch 589 | Loss: 99.680807
 Epoch 590 | Loss: 100.161466
 Epoch 591 | Loss: 99.855302
+Epoch 592 | Loss: 99.859167
+Epoch 593 | Loss: 100.008452
+Epoch 594 | Loss: 99.602279
+Epoch 595 | Loss: 99.484677
+Epoch 596 | Loss: 99.642100
+Epoch 597 | Loss: 99.300479
+Epoch 598 | Loss: 99.228252
+Epoch 599 | Loss: 99.392803
+Epoch 600 | Loss: 98.943649
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+
+Test Results:
+  MAE Energy Loss: 0.009856
+  MAE Force Loss : 0.077716
