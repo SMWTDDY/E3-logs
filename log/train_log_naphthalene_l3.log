@@ -1,0 +1,42 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/naphthalene.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=64 ---
+文件 /data5/store1/wry/E3/data/naphthalene.xyz 包含 326250 个总样本。
+总样本数: 326250
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 2687.301712
+Epoch  20 | Loss: 2499.736893
+Epoch  40 | Loss: 891.959209
+Epoch  60 | Loss: 641.501499
+Epoch  80 | Loss: 569.419106
+Epoch 100 | Loss: 540.374678
+Epoch 120 | Loss: 502.462040
+Epoch 140 | Loss: 474.930277
+Epoch 160 | Loss: 453.318771
+Epoch 180 | Loss: 426.820787
+Epoch 200 | Loss: 414.912197
+Epoch 220 | Loss: 395.627453
+Epoch 240 | Loss: 378.898909
+Epoch 260 | Loss: 363.121943
+Epoch 280 | Loss: 348.654865
+Epoch 300 | Loss: 349.869217
+Epoch 320 | Loss: 357.550659
+Epoch 340 | Loss: 312.589334
+Epoch 360 | Loss: 298.493626
+Epoch 380 | Loss: 287.478481
+Epoch 400 | Loss: 280.920731
+Epoch 420 | Loss: 274.293938
+Epoch 440 | Loss: 266.526198
+Epoch 460 | Loss: 268.701269
+Epoch 480 | Loss: 275.634760
+Epoch 500 | Loss: 252.908830
+Epoch 520 | Loss: 249.671657
+Epoch 540 | Loss: 246.452054
+Epoch 560 | Loss: 240.863853
+Epoch 580 | Loss: 234.038401
+Epoch 600 | Loss: 236.690496
+训练完成，保存模型至: /data5/store1/wry/E3/naphthalene_l3_model.pth
+--- naphthalene 训练完成 ---

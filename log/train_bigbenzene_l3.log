@@ -1,0 +1,43 @@
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+--- 正在处理文件: /data5/store1/wry/E3/data/benzene.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000 ---
+文件 /data5/store1/wry/E3/data/benzene.xyz 包含 49863 个总样本。
+总样本数: 49863
+训练集大小: 1000, 测试集大小: 48863
+使用设备: cuda
+Traceback (most recent call last):
+  File "/data5/store1/wry/E3/run_molecule_training.py", line 232, in <module>
+    E_pred,F_pred = model(batch.z,batch.pos,neighbor_mask=neighbor_mask)  
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry/E3/NequIPModel.py", line 62, in forward
+    out = blk(feats, pos, neighbor_mask)            
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry/E3/NequIPModel.py", line 21, in forward
+    conv_out = self.conv(feats, pos, neighbor_mask)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry/E3/EquivariantConv.py", line 107, in forward
+    msg = torch.tensordot(prod, cg_t, dims=([ -2, -1 ], [0,1]))  
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/functional.py", line 1382, in tensordot
+    return _VF.tensordot(a, b, dims_a, dims_b)  # type: ignore[attr-defined]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 44.43 GiB of which 14.06 MiB is free. Process 1097964 has 368.00 MiB memory in use. Process 1233145 has 262.00 MiB memory in use. Process 1233144 has 262.00 MiB memory in use. Process 1233143 has 262.00 MiB memory in use. Process 1233142 has 430.00 MiB memory in use. Process 2135434 has 41.90 GiB memory in use. Process 3656391 has 368.00 MiB memory in use. Including non-PyTorch memory, this process has 564.00 MiB memory in use. Of the allocated memory 231.02 MiB is allocated by PyTorch, and 18.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

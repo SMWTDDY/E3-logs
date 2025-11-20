@@ -1,0 +1,42 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/malonaldehyde.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=256 ---
+文件 /data5/store1/wry/E3/data/malonaldehyde.xyz 包含 993237 个总样本。
+总样本数: 993237
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 555.302048
+Epoch  20 | Loss: 554.186630
+Epoch  40 | Loss: 304.122620
+Epoch  60 | Loss: 186.489155
+Epoch  80 | Loss: 164.728184
+Epoch 100 | Loss: 153.305264
+Epoch 120 | Loss: 145.837002
+Epoch 140 | Loss: 137.813889
+Epoch 160 | Loss: 131.171289
+Epoch 180 | Loss: 126.792147
+Epoch 200 | Loss: 119.687340
+Epoch 220 | Loss: 114.356483
+Epoch 240 | Loss: 110.900904
+Epoch 260 | Loss: 108.253553
+Epoch 280 | Loss: 105.875042
+Epoch 300 | Loss: 102.847916
+Epoch 320 | Loss: 100.697191
+Epoch 340 | Loss: 97.756012
+Epoch 360 | Loss: 97.243361
+Epoch 380 | Loss: 94.875198
+Epoch 400 | Loss: 93.839653
+Epoch 420 | Loss: 92.387468
+Epoch 440 | Loss: 91.150146
+Epoch 460 | Loss: 90.005405
+Epoch 480 | Loss: 88.966755
+Epoch 500 | Loss: 88.194229
+Epoch 520 | Loss: 87.302595
+Epoch 540 | Loss: 86.451107
+Epoch 560 | Loss: 86.981150
+Epoch 580 | Loss: 85.596100
+Epoch 600 | Loss: 84.795753
+训练完成，保存模型至: /data5/store1/wry/E3/malonaldehyde_l3_model.pth
+--- malonaldehyde 训练完成 ---

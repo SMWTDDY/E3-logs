@@ -1,0 +1,28 @@
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+--- 正在处理文件: /data5/store1/wry/E3/data/malonaldehyde.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000 ---
+文件 /data5/store1/wry/E3/data/malonaldehyde.xyz 包含 993237 个总样本。
+总样本数: 993237
+训练集大小: 1000, 测试集大小: 992237
+使用设备: cuda
+Traceback (most recent call last):
+  File "/data5/store1/wry/E3/run_molecule_training.py", line 232, in <module>
+    E_pred,F_pred = model(batch.z,batch.pos,neighbor_mask=neighbor_mask)  
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry/E3/NequIPModel.py", line 81, in forward
+    F = -torch.autograd.grad(outputs=E, inputs=pos, grad_outputs= torch.ones_like(E, device=E.device), create_graph=self.training)[0]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/autograd/__init__.py", line 502, in grad
+    result = _engine_run_backward(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 44.43 GiB of which 10.06 MiB is free. Process 1097964 has 368.00 MiB memory in use. Process 1233145 has 262.00 MiB memory in use. Process 1233144 has 262.00 MiB memory in use. Process 1233143 has 262.00 MiB memory in use. Process 1233142 has 430.00 MiB memory in use. Process 2135434 has 41.90 GiB memory in use. Process 3656391 has 368.00 MiB memory in use. Including non-PyTorch memory, this process has 568.00 MiB memory in use. Of the allocated memory 233.40 MiB is allocated by PyTorch, and 12.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

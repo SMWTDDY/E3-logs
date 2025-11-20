@@ -1,0 +1,42 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/salicylic.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=64 ---
+文件 /data5/store1/wry/E3/data/salicylic.xyz 包含 320231 个总样本。
+总样本数: 320231
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 2655.811462
+Epoch  20 | Loss: 2436.554962
+Epoch  40 | Loss: 1460.117180
+Epoch  60 | Loss: 633.665573
+Epoch  80 | Loss: 498.443373
+Epoch 100 | Loss: 413.803812
+Epoch 120 | Loss: 381.093918
+Epoch 140 | Loss: 351.775805
+Epoch 160 | Loss: 329.401716
+Epoch 180 | Loss: 345.847149
+Epoch 200 | Loss: 299.670071
+Epoch 220 | Loss: 288.823147
+Epoch 240 | Loss: 276.484028
+Epoch 260 | Loss: 268.401926
+Epoch 280 | Loss: 259.571364
+Epoch 300 | Loss: 253.474299
+Epoch 320 | Loss: 246.554947
+Epoch 340 | Loss: 240.413862
+Epoch 360 | Loss: 230.341683
+Epoch 380 | Loss: 221.757673
+Epoch 400 | Loss: 229.752802
+Epoch 420 | Loss: 215.692833
+Epoch 440 | Loss: 211.794619
+Epoch 460 | Loss: 201.742922
+Epoch 480 | Loss: 209.503504
+Epoch 500 | Loss: 203.421543
+Epoch 520 | Loss: 198.012206
+Epoch 540 | Loss: 191.253427
+Epoch 560 | Loss: 189.077263
+Epoch 580 | Loss: 185.213591
+Epoch 600 | Loss: 190.695416
+训练完成，保存模型至: /data5/store1/wry/E3/salicylic_l3_model.pth
+--- salicylic 训练完成 ---

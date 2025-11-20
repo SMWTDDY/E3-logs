@@ -1,0 +1,42 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/toluene.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=64 ---
+文件 /data5/store1/wry/E3/data/toluene.xyz 包含 442790 个总样本。
+总样本数: 442790
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 2544.816635
+Epoch  20 | Loss: 2146.974632
+Epoch  40 | Loss: 1043.792999
+Epoch  60 | Loss: 691.846912
+Epoch  80 | Loss: 648.010777
+Epoch 100 | Loss: 569.219345
+Epoch 120 | Loss: 550.202932
+Epoch 140 | Loss: 480.738701
+Epoch 160 | Loss: 440.472475
+Epoch 180 | Loss: 405.544981
+Epoch 200 | Loss: 388.088175
+Epoch 220 | Loss: 383.734257
+Epoch 240 | Loss: 359.647114
+Epoch 260 | Loss: 350.402725
+Epoch 280 | Loss: 341.245640
+Epoch 300 | Loss: 339.491232
+Epoch 320 | Loss: 343.136368
+Epoch 340 | Loss: 322.915024
+Epoch 360 | Loss: 306.201115
+Epoch 380 | Loss: 304.377209
+Epoch 400 | Loss: 294.941526
+Epoch 420 | Loss: 293.374578
+Epoch 440 | Loss: 282.356035
+Epoch 460 | Loss: 278.134753
+Epoch 480 | Loss: 275.773421
+Epoch 500 | Loss: 277.152349
+Epoch 520 | Loss: 265.405075
+Epoch 540 | Loss: 264.693356
+Epoch 560 | Loss: 259.117330
+Epoch 580 | Loss: 254.290993
+Epoch 600 | Loss: 264.603041
+训练完成，保存模型至: /data5/store1/wry/E3/toluene_l3_model.pth
+--- toluene 训练完成 ---

@@ -1,0 +1,13 @@
+--- 正在测试文件 (全量数据): /data5/store1/wry/E3/data/paracetamol.xyz ---
+文件读取完毕，共发现 106490 个样本。
+测试模式：使用数据集中的 **全部 106490 个样本** 进行测试。
+使用设备: cuda
+加载模型: /data5/store1/wry/E3/paracetamol_l3_model.pth
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+
+--- 开始测试 (l_max=3) ---
+  Successfully tested molecules: 106490
+  MAE Energy Loss: 3.241590 (kcal/mol)
+  MAE Force Loss : 10.151100 (kcal/mol/A)
+--- End of Report ---

@@ -1,0 +1,13 @@
+--- 正在测试文件 (全量数据): /data5/store1/wry/E3/data/uracil.xyz ---
+文件读取完毕，共发现 133770 个样本。
+测试模式：使用数据集中的 **全部 133770 个样本** 进行测试。
+使用设备: cuda
+加载模型: /data5/store1/wry/E3/uracil_l3_model.pth
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+
+--- 开始测试 (l_max=3) ---
+  Successfully tested molecules: 133770
+  MAE Energy Loss: 1.052721 (kcal/mol)
+  MAE Force Loss : 4.997618 (kcal/mol/A)
+--- End of Report ---

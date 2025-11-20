@@ -1,0 +1,42 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/uracil.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=64 ---
+文件 /data5/store1/wry/E3/data/uracil.xyz 包含 133770 个总样本。
+总样本数: 133770
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 2614.578506
+Epoch  20 | Loss: 1648.603813
+Epoch  40 | Loss: 634.464890
+Epoch  60 | Loss: 482.021799
+Epoch  80 | Loss: 401.584251
+Epoch 100 | Loss: 350.648314
+Epoch 120 | Loss: 314.345343
+Epoch 140 | Loss: 299.712662
+Epoch 160 | Loss: 262.267359
+Epoch 180 | Loss: 246.832054
+Epoch 200 | Loss: 249.996423
+Epoch 220 | Loss: 222.943135
+Epoch 240 | Loss: 213.337453
+Epoch 260 | Loss: 201.197568
+Epoch 280 | Loss: 192.772621
+Epoch 300 | Loss: 190.469714
+Epoch 320 | Loss: 180.382633
+Epoch 340 | Loss: 181.171773
+Epoch 360 | Loss: 168.290161
+Epoch 380 | Loss: 169.349352
+Epoch 400 | Loss: 158.091106
+Epoch 420 | Loss: 155.472572
+Epoch 440 | Loss: 156.175305
+Epoch 460 | Loss: 150.193748
+Epoch 480 | Loss: 146.414867
+Epoch 500 | Loss: 145.408577
+Epoch 520 | Loss: 141.374544
+Epoch 540 | Loss: 138.180653
+Epoch 560 | Loss: 139.040123
+Epoch 580 | Loss: 133.883444
+Epoch 600 | Loss: 130.502520
+训练完成，保存模型至: /data5/store1/wry/E3/uracil_l3_model.pth
+--- uracil 训练完成 ---

@@ -1,0 +1,42 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/ethanol.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=256 ---
+文件 /data5/store1/wry/E3/data/ethanol.xyz 包含 555091 个总样本。
+总样本数: 555091
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 511.649208
+Epoch  20 | Loss: 477.576378
+Epoch  40 | Loss: 463.663528
+Epoch  60 | Loss: 214.345085
+Epoch  80 | Loss: 183.060925
+Epoch 100 | Loss: 163.342937
+Epoch 120 | Loss: 141.215477
+Epoch 140 | Loss: 129.108114
+Epoch 160 | Loss: 122.862375
+Epoch 180 | Loss: 117.803778
+Epoch 200 | Loss: 113.110821
+Epoch 220 | Loss: 108.147474
+Epoch 240 | Loss: 103.453482
+Epoch 260 | Loss: 99.364500
+Epoch 280 | Loss: 94.817762
+Epoch 300 | Loss: 90.829462
+Epoch 320 | Loss: 88.490763
+Epoch 340 | Loss: 86.107616
+Epoch 360 | Loss: 84.037720
+Epoch 380 | Loss: 81.782701
+Epoch 400 | Loss: 80.065243
+Epoch 420 | Loss: 78.324957
+Epoch 440 | Loss: 77.051544
+Epoch 460 | Loss: 76.057251
+Epoch 480 | Loss: 74.865343
+Epoch 500 | Loss: 73.671268
+Epoch 520 | Loss: 72.709379
+Epoch 540 | Loss: 73.569439
+Epoch 560 | Loss: 71.276827
+Epoch 580 | Loss: 70.332138
+Epoch 600 | Loss: 69.976145
+训练完成，保存模型至: /data5/store1/wry/E3/ethanol_l3_model.pth
+--- ethanol 训练完成 ---

@@ -1,0 +1,27 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/benzene_old_dft.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=512 ---
+文件 /data5/store1/wry/E3/data/benzene_old_dft.xyz 包含 627983 个总样本。
+总样本数: 627983
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 132.729675
+Epoch  20 | Loss: 128.656284
+Epoch  40 | Loss: 128.533096
+Epoch  60 | Loss: 128.573051
+Epoch  80 | Loss: 128.498962
+Epoch 100 | Loss: 128.328438
+Epoch 120 | Loss: 117.479519
+Epoch 140 | Loss: 89.459419
+Epoch 160 | Loss: 69.512714
+Epoch 180 | Loss: 39.395599
+Epoch 200 | Loss: 29.493122
+Epoch 220 | Loss: 25.732472
+Epoch 240 | Loss: 23.637212
+Epoch 260 | Loss: 22.077580
+Epoch 280 | Loss: 20.956617
+Epoch 300 | Loss: 19.814603
+Epoch 320 | Loss: 18.777647
+Epoch 340 | Loss: 17.934358

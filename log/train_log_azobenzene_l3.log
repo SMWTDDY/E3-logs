@@ -1,0 +1,42 @@
+--- 正在处理文件: /data5/store1/wry/E3/data/azobenzene.xyz ---
+--- 参数设置: l_max=3, train_sample_num=1000, batch_size=256 ---
+文件 /data5/store1/wry/E3/data/azobenzene.xyz 包含 99999 个总样本。
+总样本数: 99999
+训练集大小: 1000
+/data5/store1/wry-u22/anaconda3/envs/py311/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+使用设备: cuda
+--- 开始训练 ---
+Epoch   1 | Loss: 918.470581
+Epoch  20 | Loss: 634.989609
+Epoch  40 | Loss: 633.375549
+Epoch  60 | Loss: 629.575714
+Epoch  80 | Loss: 627.176437
+Epoch 100 | Loss: 621.810913
+Epoch 120 | Loss: 491.982033
+Epoch 140 | Loss: 387.344177
+Epoch 160 | Loss: 353.608978
+Epoch 180 | Loss: 327.256828
+Epoch 200 | Loss: 307.963402
+Epoch 220 | Loss: 288.350327
+Epoch 240 | Loss: 271.784271
+Epoch 260 | Loss: 259.190472
+Epoch 280 | Loss: 252.336506
+Epoch 300 | Loss: 240.970928
+Epoch 320 | Loss: 234.893620
+Epoch 340 | Loss: 225.551140
+Epoch 360 | Loss: 222.198353
+Epoch 380 | Loss: 213.813217
+Epoch 400 | Loss: 209.349831
+Epoch 420 | Loss: 204.821732
+Epoch 440 | Loss: 202.751591
+Epoch 460 | Loss: 196.745827
+Epoch 480 | Loss: 195.792778
+Epoch 500 | Loss: 188.245895
+Epoch 520 | Loss: 186.053753
+Epoch 540 | Loss: 182.544182
+Epoch 560 | Loss: 181.576099
+Epoch 580 | Loss: 179.063828
+Epoch 600 | Loss: 175.984009
+训练完成，保存模型至: /data5/store1/wry/E3/azobenzene_l3_model.pth
+--- azobenzene 训练完成 ---
